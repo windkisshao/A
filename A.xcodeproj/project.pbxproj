@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163583C0277B08D30014BBAB /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163583BE277B08D30014BBAB /* AViewController.m */; };
 		16F5ED8B2779C58F00890A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5ED8A2779C58F00890A41 /* AppDelegate.m */; };
 		16F5ED8E2779C58F00890A41 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5ED8D2779C58F00890A41 /* SceneDelegate.m */; };
 		16F5ED912779C58F00890A41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5ED902779C58F00890A41 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		16F5ED962779C59000890A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F5ED952779C59000890A41 /* Assets.xcassets */; };
 		16F5ED992779C59000890A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F5ED972779C59000890A41 /* LaunchScreen.storyboard */; };
 		16F5ED9C2779C59000890A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5ED9B2779C59000890A41 /* main.m */; };
-		16F5EDA62779C7D100890A41 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5EDA42779C7D100890A41 /* AViewController.m */; };
 		16F5EDDA2779D65B00890A41 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F5EDD92779D65B00890A41 /* Target_A.m */; };
 		67D596D392D6F8B3ECC7DECE /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A62A2D4EB319CA1248D8A /* DemoViewController.swift */; };
 		8CBEAA2FADFC975FB1978309 /* A_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F4B900095065E3F55906B /* A_Extension.swift */; };
@@ -22,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163583BE277B08D30014BBAB /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		163583BF277B08D30014BBAB /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		16F5ED862779C58F00890A41 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F5ED892779C58F00890A41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16F5ED8A2779C58F00890A41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +36,6 @@
 		16F5ED982779C59000890A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F5ED9A2779C59000890A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F5ED9B2779C59000890A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16F5EDA42779C7D100890A41 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		16F5EDA52779C7D100890A41 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		16F5EDD82779D65B00890A41 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_A.h; path = Source/Target/Target_A.h; sourceTree = "<group>"; };
 		16F5EDD92779D65B00890A41 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_A.m; path = Source/Target/Target_A.m; sourceTree = "<group>"; };
 		1C9A62A2D4EB319CA1248D8A /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +68,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		163583BD277B08D30014BBAB /* A */ = {
+			isa = PBXGroup;
+			children = (
+				163583BE277B08D30014BBAB /* AViewController.m */,
+				163583BF277B08D30014BBAB /* AViewController.h */,
+			);
+			name = A;
+			path = Source/A;
+			sourceTree = "<group>";
+		};
 		16F5ED7D2779C58F00890A41 = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +99,6 @@
 		16F5ED882779C58F00890A41 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				16F5EDA32779C7D100890A41 /* A */,
 				16F5ED892779C58F00890A41 /* AppDelegate.h */,
 				16F5ED8A2779C58F00890A41 /* AppDelegate.m */,
 				16F5ED8C2779C58F00890A41 /* SceneDelegate.h */,
@@ -105,15 +114,6 @@
 				1F6A18799FACF7FCDF25B178 /* Extension */,
 				870DE42205490C6250E1CD62 /* A.podspec */,
 				CF552740C7379AB652F338AB /* A_Extension.podspec */,
-			);
-			path = A;
-			sourceTree = "<group>";
-		};
-		16F5EDA32779C7D100890A41 /* A */ = {
-			isa = PBXGroup;
-			children = (
-				16F5EDA42779C7D100890A41 /* AViewController.m */,
-				16F5EDA52779C7D100890A41 /* AViewController.h */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -138,6 +138,7 @@
 		68F8E6979E898E67666FCC7B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				163583BD277B08D30014BBAB /* A */,
 				1C9A62A2D4EB319CA1248D8A /* DemoViewController.swift */,
 				323034BD23F7C7561D1C140F /* Target */,
 			);
@@ -270,8 +271,8 @@
 				16F5ED8B2779C58F00890A41 /* AppDelegate.m in Sources */,
 				16F5ED9C2779C59000890A41 /* main.m in Sources */,
 				16F5ED8E2779C58F00890A41 /* SceneDelegate.m in Sources */,
+				163583C0277B08D30014BBAB /* AViewController.m in Sources */,
 				16F5EDDA2779D65B00890A41 /* Target_A.m in Sources */,
-				16F5EDA62779C7D100890A41 /* AViewController.m in Sources */,
 				67D596D392D6F8B3ECC7DECE /* DemoViewController.swift in Sources */,
 				8CBEAA2FADFC975FB1978309 /* A_Extension.swift in Sources */,
 			);
